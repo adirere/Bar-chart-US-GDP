@@ -1,2 +1,2 @@
 # Bar-chart-US-GDP
-Created with CodeSandbox
+Created with CodeSandbox usind D3 and Axios
