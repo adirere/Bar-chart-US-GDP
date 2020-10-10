@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #ff8da1;
+  min-width: 1000px;
+}
+
+svg {
+  overflow: visible;
+}
+
+#app {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#x-axis {
+  transform: translate(0, 500px);
+  color: white;
+}
+
+#y-axis {
+  color: white;
+}
+
+.bar:hover {
+  fill: rgb(247, 230, 232);
+}
+
+#tooltip {
+  background-color: #d4c0ff;
+  border: 1px solid #ebffc0;
+  color: white;
+  width: 150px;
+  padding: 5px;
+}
